@@ -33,7 +33,7 @@ jobs:
             const page = await browser.newPage();
             
             // 加入动态时间戳，彻底击穿 Cloudflare/CDN 缓存
-            const targetUrl = 'https://ctmr2026.streamlit.app/?ping=' + Date.now();
+            const targetUrl = 'https://ezrisk.streamlit.app/?ping=' + Date.now();
             console.log('🌐 [2/5] 正在潜入目标网站: ' + targetUrl);
             
             try {
